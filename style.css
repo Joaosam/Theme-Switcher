@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #F1F1F1;
+	transition: 0.2s linear;
+	flex-direction: column;
+	color: #010101;
+}
+
+p {
+	margin: 30px;
+}
+
+body.darks {
+	background-color: #292C35;
+	color: #F1F1F1;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label .ball {
+	transform: translateX(0px);
+	transition: 0.3s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(65px);
+	transition: 0.3s linear;	
+}
+
+.label {
+	display: flex;
+	width: 90px;
+	height: 35px;	
+	background: #111;
+	border-radius: 50px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px;
+	position: relative;
+	transform: scale(2);
+}
+
+.ball {
+	display: flex;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: white;
+}
+

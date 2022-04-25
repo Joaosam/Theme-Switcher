@@ -21,6 +21,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Desenvolvendo uma página que saiba alternar entre temas escuros e claros.
+Desenvolvendo uma página que saiba alternar entre temas escuros e claros, salvando o tema no Local Storage.
 
 ---

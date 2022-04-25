@@ -17,7 +17,7 @@ p {
 	margin: 30px;
 }
 
-body.darks {
+body.dark {
 	background-color: #292C35;
 	color: #F1F1F1;
 }
@@ -27,14 +27,13 @@ body.darks {
 	position: absolute;
 }
 
-.label .ball {
+.label #ball {
 	transform: translateX(0px);
 	transition: 0.3s linear;
 }
 
-.checkbox:checked + .label .ball {
+.checkbox:checked + .label #ball {
 	transform: translateX(65px);
-	transition: 0.3s linear;	
 }
 
 .label {
@@ -50,7 +49,7 @@ body.darks {
 	transform: scale(2);
 }
 
-.ball {
+#ball {
 	display: flex;
 	width: 25px;
 	height: 25px;
@@ -58,4 +57,3 @@ body.darks {
 	position: absolute;
 	background-color: white;
 }
-

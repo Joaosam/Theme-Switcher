@@ -32,7 +32,6 @@ body.dark {
 
 .label #ball {
 	transform: translateX(0px);
-	transition: 0.3s linear;
 }
 
 .checkbox:checked + .label #ball {

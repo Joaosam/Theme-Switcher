@@ -3,7 +3,6 @@ window.onload = function verifyTheme() {
   // Verifico qual o tema existente no Local Storage
   const theme = localStorage.getItem('Theme')
   document.getElementById('ball').style.transition = '0.0s linear'
-  console.log(theme)
   if (theme == null) {
     localStorage.setItem('Theme', 'light')
     // Invoco a classe dark, marcando meu checkbox como true

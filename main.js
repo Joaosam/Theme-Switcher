@@ -12,7 +12,7 @@ window.onload = function verifyTheme() {
   }
 }
 
-// Verifico se a classe dark está habilitada ou não, com isso, defino o valor do Local Storage
+// Verifico se a classe dark está habilitada, com isso, defino o valor do Local Storage
 function dark() {
   const verifyTheme = document.body.classList.toggle('dark')
   const ball = document.getElementById('ball')
